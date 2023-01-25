@@ -49,256 +49,306 @@ Recipe.create([
 ])
 
 Ingredient.create([
-        {
-          name: "almond extract",
-          quantity: "1 tsp",
-          recipe_id: 1
-        },
-        {
-          name: "Bramley apples",
-          quantity: "200g/7oz",
-          recipe_id: 1
-        },
-        {
-          name: "butter",
-          quantity: "75g/3oz",
-          recipe_id: 1
-        },
-        {
-          name: "butter, softened",
-          quantity: "75g/3oz",
-          recipe_id: 1
-        },
-        {
-          name: "caster sugar",
-          quantity: "75g/3oz",
-          recipe_id: 1
-        },
-        {
-          name: "digestive biscuits",
-          quantity: "175g/6oz",
-          recipe_id: 1
-        },
-        {
-          name: "flaked almonds",
-          quantity: "50g/1¾oz",
-          recipe_id: 1
-        },
-        {
-          name: "free-range eggs, beaten",
-          quantity: "2",
-          recipe_id: 1
-        },
-        {
-          name: "ground almonds",
-          quantity: "75g/3oz",
-          recipe_id: 1
-        },
-        {
-          name: "Blackberrys",
-          quantity: "120g",
-          recipe_id: 2
-        },
-        {
-          name: "Braeburn Apples",
-          quantity: "300g",
-          recipe_id: 2
-        },
-        {
-          name: "Butter",
-          quantity: "60g",
-          recipe_id: 2
-        },
-        {
-          name: "Butter",
-          quantity: "30g",
-          recipe_id: 2
-        },
-        {
-          name: "Caster Sugar",
-          quantity: "60g",
-          recipe_id: 2
-        },
-        {
-          name: "Cinnamon",
-          quantity: "¼ teaspoon",
-          recipe_id: 2
-        },
-        {
-          name: "Demerara Sugar",
-          quantity: "30g",
-          recipe_id: 2
-        },
-        {
-          name: "Ice Cream",
-          quantity: "to serve",
-          recipe_id: 2
-        },
-        {
-          name: "Plain Flour",
-          quantity: "120g",
-          recipe_id: 2
-        },
-        {
-          name: "Baking Powder",
-          quantity: "3 tsp",
-          recipe_id: 3
-        },
-        {
-          name: "Eggs",
-          quantity: "2",
-          recipe_id: 3
-        },
-        {
-          name: "Flour",
-          quantity: "1600g",
-          recipe_id: 3
-        },
-        {
-          name: "Milk",
-          quantity: "200ml",
-          recipe_id: 3
-        },
-        {
-          name: "Oil",
-          quantity: "60ml",
-          recipe_id: 3
-        },
-        {
-          name: "Peanut Butter",
-          quantity: "3 tbs",
-          recipe_id: 3
-        },
-        {
-          name: "Salt",
-          quantity: "1/2 tsp",
-          recipe_id: 3
-        },
-        {
-          name: "Sugar",
-          quantity: "45g",
-          recipe_id: 3
-        },
-        {
-          name: "Unsalted Butter",
-          quantity: "25g",
-          recipe_id: 3
-        },
-        {
-          name: "Cayenne Pepper",
-          quantity: "8",
-          recipe_id: 4
-        },
-        {
-          name: "Challots",
-          quantity: "16",
-          recipe_id: 4
-        },
-        {
-          name: "Chicken Thighs",
-          quantity: "6",
-          recipe_id: 4
-        },
-        {
-          name: "Coconut Milk",
-          quantity: "1 can",
-          recipe_id: 4
-        },
-        {
-          name: "Coriander",
-          quantity: "1 1/2",
-          recipe_id: 4
-        },
-        {
-          name: "Cumin",
-          quantity: "1 1/2",
-          recipe_id: 4
-        },
-        {
-          name: "Fennel",
-          quantity: "1 1/2",
-          recipe_id: 4
-        },
-        {
-          name: "Garlic Clove",
-          quantity: "6",
-          recipe_id: 4
-        },
-        {
-          name: "Ginger",
-          quantity: "1 1/2",
-          recipe_id: 4
-        },
-        {
-          name: "Sugar",
-          quantity: "1 tsp",
-          recipe_id: 4
-        },
-        {
-          name: "Tamarind Paste",
-          quantity: "2 tbs",
-          recipe_id: 4
-        },
-        {
-          name: "Turmeric",
-          quantity: "2 tbs",
-          recipe_id: 4
-        },
-        {
-          name: "Water",
-          quantity: "1 cup",
-          recipe_id: 4
-        },
-        {
-          name: "almond extract",
-          quantity: "½ tsp",
-          recipe_id: 5
-        },
-        {
-          name: "butter",
-          quantity: "125g/4½oz",
-          recipe_id: 5
-        },
-        {
-          name: "caster sugar",
-          quantity: "125g/4½oz",
-          recipe_id: 5
-        },
-        {
-          name: "chilled butter",
-          quantity: "75g/2½oz",
-          recipe_id: 5
-        },
-        {
-          name: "cold water",
-          quantity: "2-3 tbsp",
-          recipe_id: 5
-        },
-        {
-          name: "flaked almonds",
-          quantity: "50g/1¾oz",
-          recipe_id: 5
-        },
-        {
-          name: "free-range egg, beaten",
-          quantity: "1",
-          recipe_id: 5
-        },
-        {
-          name: "ground almonds",
-          quantity: "125g/4½oz",
-          recipe_id: 5
-        },
-        {
-          name: "plain flour",
-          quantity: "175g/6oz",
-          recipe_id: 5
-        },
-        {
-          name: "raspberry jam",
-          quantity: "1 tbsp",
-          recipe_id: 5
-        }
+    {
+      name: "almond extract",
+      quantity: "1 tsp",
+      aisle: "Baking & Spices",
+      recipe_id: 1
+    },
+    {
+      name: "Bramley apples",
+      quantity: "200g/7oz",
+      aisle: "Produce",
+      recipe_id: 1
+    },
+    {
+      name: "butter",
+      quantity: "75g/3oz",
+      aisle: "Dairy, Cheese & Eggs",
+      recipe_id: 1
+    },
+    {
+      name: "butter, softened",
+      quantity: "75g/3oz",
+      aisle: "Dairy, Cheese & Eggs",
+      recipe_id: 1
+    },
+    {
+      name: "caster sugar",
+      quantity: "75g/3oz",
+      aisle: "Baking & Spices",
+      recipe_id: 1
+    },
+    {
+      name: "digestive biscuits",
+      quantity: "175g/6oz",
+      aisle: "Speciality",
+      recipe_id: 1
+    },
+    {
+      name: "flaked almonds",
+      quantity: "50g/1¾oz",
+      aisle: "Nuts, Seeds & Snacks",
+      recipe_id: 1
+    },
+    {
+      name: "free-range eggs, beaten",
+      quantity: "2",
+      aisle: "Dairy, Cheese & Eggs",
+      recipe_id: 1
+    },
+    {
+      name: "ground almonds",
+      quantity: "75g/3oz",
+      aisle: "Nuts, Seeds & Snacks",
+      recipe_id: 1
+    },
+    {
+      name: "Blackberrys",
+      quantity: "120g",
+      aisle: "Produce",
+      recipe_id: 2
+    },
+    {
+      name: "Braeburn Apples",
+      quantity: "300g",
+      aisle: "Produce",
+      recipe_id: 2
+    },
+    {
+      name: "Butter",
+      quantity: "60g",
+      aisle: "Dairy, Cheese & Eggs",
+      recipe_id: 2
+    },
+    {
+      name: "Butter",
+      quantity: "30g",
+      aisle: "Dairy, Cheese & Eggs",
+      recipe_id: 2
+    },
+    {
+      name: "Caster Sugar",
+      quantity: "60g",
+      aisle: "Baking & Spices",
+      recipe_id: 2
+    },
+    {
+      name: "Cinnamon",
+      quantity: "¼ teaspoon",
+      aisle: "Baking & Spices",
+      recipe_id: 2
+    },
+    {
+      name: "Demerara Sugar",
+      quantity: "30g",
+      aisle: "Baking & Spices",
+      recipe_id: 2
+    },
+    {
+      name: "Ice Cream",
+      quantity: "to serve",
+      aisle: "Dairy, Cheese & Eggs",
+      recipe_id: 2
+    },
+    {
+      name: "Plain Flour",
+      quantity: "120g",
+      aisle: "Baking & Spices",
+      recipe_id: 2
+    },
+    {
+      name: "Baking Powder",
+      quantity: "3 tsp",
+      aisle: "Baking & Spices",
+      recipe_id: 3
+    },
+    {
+      name: "Eggs",
+      quantity: "2",
+      aisle: "Dairy, Cheese & Eggs",
+      recipe_id: 3
+    },
+    {
+      name: "Flour",
+      quantity: "1600g",
+      aisle: "Baking & Spices",
+      recipe_id: 3
+    },
+    {
+      name: "Milk",
+      quantity: "200ml",
+      aisle: "Dairy, Cheese & Eggs",
+      recipe_id: 3
+    },
+    {
+      name: "Oil",
+      quantity: "60ml",
+      aisle: "Oils, Sauces & Condiments",
+      recipe_id: 3
+    },
+    {
+      name: "Peanut Butter",
+      quantity: "3 tbs",
+      aisle: "Nuts, Seeds & Snacks",
+      recipe_id: 3
+    },
+    {
+      name: "Salt",
+      quantity: "1/2 tsp",
+      aisle: "Baking & Spices",
+      recipe_id: 3
+    },
+    {
+      name: "Sugar",
+      quantity: "45g",
+      aisle: "Baking & Spices",
+      recipe_id: 3
+    },
+    {
+      name: "Unsalted Butter",
+      quantity: "25g",
+      aisle: "Dairy, Cheese & Eggs",
+      recipe_id: 3
+    },
+    {
+      name: "Cayenne Pepper",
+      quantity: "8",
+      aisle: "Baking & Spices",
+      recipe_id: 4
+    },
+    {
+      name: "Challots",
+      quantity: "16",
+      aisle: "Produce",
+      recipe_id: 4
+    },
+    {
+      name: "Chicken Thighs",
+      quantity: "6",
+      aisle: "Meat & Seafood",
+      recipe_id: 4
+    },
+    {
+      name: "Coconut Milk",
+      quantity: "1 can",
+      aisle: "Dairy, Cheese & Eggs",
+      recipe_id: 4
+    },
+    {
+      name: "Coriander",
+      quantity: "1 1/2",
+      aisle: "Baking & Spices",
+      recipe_id: 4
+    },
+    {
+      name: "Cumin",
+      quantity: "1 1/2",
+      aisle: "Baking & Spices",
+      recipe_id: 4
+    },
+    {
+      name: "Fennel",
+      quantity: "1 1/2",
+      aisle: "Baking & Spices",
+      recipe_id: 4
+    },
+    {
+      name: "Garlic Clove",
+      quantity: "6",
+      aisle: "Produce",
+      recipe_id: 4
+    },
+    {
+      name: "Ginger",
+      quantity: "1 1/2",
+      aisle: "Baking & Spices",
+      recipe_id: 4
+    },
+    {
+      name: "Sugar",
+      quantity: "1 tsp",
+      aisle: "Baking & Spices",
+      recipe_id: 4
+    },
+    {
+      name: "Tamarind Paste",
+      quantity: "2 tbs",
+      aisle: "Baking & Spices",
+      recipe_id: 4
+    },
+    {
+      name: "Turmeric",
+      quantity: "2 tbs",
+      aisle: "Baking & Spices",
+      recipe_id: 4
+    },
+    {
+      name: "Water",
+      quantity: "1 cup",
+      aisle: "Speciality",
+      recipe_id: 4
+    },
+    {
+      name: "almond extract",
+      quantity: "½ tsp",
+      aisle: "Baking & Spices",
+      recipe_id: 5
+    },
+    {
+      name: "butter",
+      quantity: "125g/4½oz",
+      aisle: "Dairy, Cheese & Eggs",
+      recipe_id: 5
+    },
+    {
+      name: "caster sugar",
+      quantity: "125g/4½oz",
+      aisle: "Baking & Spices",
+      recipe_id: 5
+    },
+    {
+      name: "chilled butter",
+      quantity: "75g/2½oz",
+      aisle: "Dairy, Cheese & Eggs",
+      recipe_id: 5
+    },
+    {
+      name: "cold water",
+      quantity: "2-3 tbsp",
+      aisle: "Speciality",
+      recipe_id: 5
+    },
+    {
+      name: "flaked almonds",
+      quantity: "50g/1¾oz",
+      aisle: "Nuts, Seeds & Snacks",
+      recipe_id: 5
+    },
+    {
+      name: "free-range egg, beaten",
+      quantity: "1",
+      aisle: "Dairy, Cheese & Eggs",
+      recipe_id: 5
+    },
+    {
+      name: "ground almonds",
+      quantity: "125g/4½oz",
+      aisle: "Nuts, Seeds & Snacks",
+      recipe_id: 5
+    },
+    {
+      name: "plain flour",
+      quantity: "175g/6oz",
+      aisle: "Baking & Spices",
+      recipe_id: 5
+    },
+    {
+      name: "raspberry jam",
+      quantity: "1 tbsp",
+      aisle: "Canned & Jarred Goods",
+      recipe_id: 5
+    }
 ])
 
 CartItem.create([
