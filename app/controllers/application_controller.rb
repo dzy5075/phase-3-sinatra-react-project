@@ -6,4 +6,12 @@ class ApplicationController < Sinatra::Base
     { message: "Good luck with your project!" }.to_json
   end
 
+  get '/recipes' do
+    Recipe.all.to_json
+  end
+
+  get '/recipes/:id' do
+    [Recipe.find(params[:id]), Recipe.find(params[:id]).ingredients].to_json
+  end
+
 end
