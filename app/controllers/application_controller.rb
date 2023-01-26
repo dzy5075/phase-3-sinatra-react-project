@@ -27,10 +27,9 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/cart_items' do
-    CartItem.create(
-      recipe_id: params[:recipe_id],
-      ingredient_id: self.post_ingredients
-    ).to_json
+
+    Recipe.post_ingredients(params[:recipe_id]).to_json
+
   end
 
   
