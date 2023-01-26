@@ -18,6 +18,14 @@ class ApplicationController < Sinatra::Base
     [CartItem.display_recipes.uniq, CartItem.display_ingredients].to_json
   end
 
+  patch '/recipes/:id' do
+    Recipe.find(params[:id]).update(favorite: params[:favorite]).to_json
+  end
+
+  delete '/cart_items' do
+    CartItem.destroy_all
+  end
+
   # post '/cart_items' do
   #   CartItem.create(
   #     recipe_id: params[:recipe_id],
