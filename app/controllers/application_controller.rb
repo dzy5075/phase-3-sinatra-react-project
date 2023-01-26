@@ -26,11 +26,13 @@ class ApplicationController < Sinatra::Base
     CartItem.destroy_all
   end
 
-  # post '/cart_items' do
-  #   CartItem.create(
-  #     recipe_id: params[:recipe_id],
-  #     ingredient_id: params[:ingredient_id]
-  #   ).to_json
-  # end
+  post '/cart_items' do
+    CartItem.create(
+      recipe_id: params[:recipe_id],
+      ingredient_id: self.post_ingredients
+    ).to_json
+  end
+
+  
 
 end
