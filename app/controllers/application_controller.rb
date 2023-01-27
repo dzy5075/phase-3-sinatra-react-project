@@ -27,9 +27,7 @@ class ApplicationController < Sinatra::Base
   end
 
   post '/cart_items' do
-
     Recipe.post_ingredients(params[:recipe_id]).to_json
-
   end
 
   
